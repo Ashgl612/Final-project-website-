@@ -1,0 +1,72 @@
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    margin-top: 30vh;
+    font-family: 'great vibes', sans-serif;
+  }
+  #motto {
+    color:darkgray
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    padding: 1em 2em;
+    background: rgba(78, 23, 110, 0.278); 
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  }
+
+  .logo {
+    height: 60px;
+    width: auto;
+    display: block
+  }
+
+  .nav-links a {
+    padding-right: 1em ;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .nav-links {
+    display: flex;
+  margin-left: 70vw; 
+  align-items: center;
+  gap: 1em;
+
+  }
+
+  .artist-statement {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 100px 50px;
+    position: relative;
+     margin-top: 50vh; /* Push the section down initially */
+    z-index: 2;
+}
+  
+
+  
